@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+    <util:properties id="config" location="classpath:conf/db.properties" />
+    <!-- 配置数据库连接参数及连接池 -->
+    <bean id="dbcp" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName" value="#{config.driver}" />
+        <property name="url" value="#{config.url}" />
+        <property name="username" value="#{config.username}" />
+        <property name="password" value="#{config.password}"/>
+    </bean>
+
+    <!-- 配置SqlSessionFactory -->
+    <bean id="ssf" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dbcp"></property>
+        <property name="mapperLocations" value="classpath:mapper/*.xml"></property>
+    </bean>
+
+    <!-- 配置mapper扫描 -->
+    <bean id="mapperScanner" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="cn.takia.blog.dao"></property>
+    </bean>
+</beans>
