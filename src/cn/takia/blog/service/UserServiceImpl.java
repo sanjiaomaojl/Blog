@@ -21,7 +21,7 @@ public class UserServiceImpl implements UserService{
             result.setMsg("用户名不存在");
             return result;
         }
-        if (!user.getCn_user_password().equals(password)){
+        if (!user.getB_user_password().equals(password)){
             result.setStatus(2);
             result.setMsg("密码错误");
             return result;

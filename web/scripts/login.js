@@ -14,7 +14,7 @@ function userLogin() {
     //发送请求
     if(ok){
         $.ajax({
-            url:path+"/user/login.do",
+            url:path+"/blog/login.do",
             type:"post",
             data:{"name":name,"password":password},
             dataType:"json",
@@ -22,10 +22,10 @@ function userLogin() {
                 //result是服务器返回的JSON结果
                 if(result.status == 0){
                     //将用户信息保存到Cookie
-                    var userId = result.data.cn_user_id;
-                    addCookie("userId",userId,2);
+                    var bId = result.data.b_user_id;
+                    addCookie("bId",bId,2);
                     //登陆成功跳转页面
-                    window.location.href = "edit.html";
+                    window.location.href = "blogList.html";
                 }else if(result.status == 1){
                     $("#name_msg").html(result.msg);
                 }else if (result.status == 2){

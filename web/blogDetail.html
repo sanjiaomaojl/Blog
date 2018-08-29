@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Blog</title>
+
+    <link href="vendor/editor/css/editormd.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/public.css">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar navbar-expand-xl navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+        <!-- Logo 名称 -->
+        <a class="navbar-brand" href="#">Blog</a>
+        <!-- 响应式导航下拉按钮 -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <!-- s 左侧导航 -->
+            <ul class="nav navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link"><!-- 占位 --></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"></a>
+                </li>
+            </ul>
+            <!-- e 左侧导航 -->
+            <!-- s 右侧导航 -->
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" id="linkA"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="linkB"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="linkC"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container container-fluid cus_content">
+    <div class="row mt-md-5"></div>
+    <div class="row mt-md-5">
+        <div class="col-md-8 offset-md-2">
+            <h3 class="p-3 font-weight-bold" id="blogTitle"></h3>
+            <div class="row pl-3 pr-3">
+                <div class="col-md-6"></div>
+                <div class="col-md-6 text-md-right">
+                    <p class="small text-secondary" id="blogDate"></p>
+                </div>
+                <div id="blogContent"></div>
+            </div>
+        </div>
+    </div>
+    <div class="row mb-md-5"></div>
+</div>
+
+<footer class="py-5 bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 text-center text-lg-left my-auto">
+                <ul class="list-inline mb-2 text-white">
+                    <li class="list-inline-item">
+                        &sdot;
+                    </li>
+                    <li class="list-inline-item">&sdot;</li>
+
+                    <li class="list-inline-item">&sdot;</li>
+
+                </ul>
+            </div>
+            <div class="col-lg-6 text-center text-lg-right my-auto">
+                <ul class="list-inline mb-0">
+                    <!-- github -->
+                    <li class="list-inline-item mr-3">
+                        <a href="https://github.com/sanjiaomaojl" target="_blank" class="text-white">
+                            <i class="fa fa-github fa-2x fa-fw"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- JS -->
+<!--cookie-->
+<script src="scripts/cookie_util.js"></script>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<!-- Bootstrap-Core JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<!-- Bootstrap-Bundle JS-->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.bundle.min.js"></script>
+<!-- Fotter -->
+<script src="scripts/f_footer.js"></script>
+<!--定义path-->
+<script src="scripts/base.js"></script>
+<script>
+    function getQueryVariable(variable)
+    {
+        var query = window.location.search.substring(1);
+        var vars = query.split("&");
+        for (var i=0;i<vars.length;i++) {
+            var pair = vars[i].split("=");
+            if(pair[0] === variable){return pair[1];}
+        }
+        return(false);
+    }
+    $(document).ready(function () {
+        //获取userId
+        var bId = getCookie("bId");
+        //判断是否有效
+        $.ajax({
+            url:path+"/blog/isLogin.do",
+            type:"post",
+            data:{"userId":bId},
+            dataType:"json",
+            success:function (result) {
+                if (result.status === 0) {
+                    $('#linkA').text(result.data.b_user_name);
+                    if (result.data.b_user_name === 'demo') {
+                        $('#linkB').text('博客管理').attr('href', 'blogManage.html');
+                    }
+                    $('#linkC').text('退出').attr('href', path+'/blog/loginOut.do');
+                } else {
+                    $('#linkB').text('注册/登录').attr('href', 'log_in.html');
+                }
+            },
+            error:function () {
+                alert("登录失败!");
+            }
+        });
+/*        //文章全部内容
+        $.post('/api/blog/'+getQueryVariable('id'), function (result) {
+            if (result.code===0) {
+                $('#blogTitle').text(result.data.title);
+                $('#blogDate').text(result.data.createTime);
+                $('#blogContent').html(result.data.showContent);
+            }
+        }).fail(function () {
+            alert("网络异常，请重试");
+        });*/
+        //文章内容
+        var diaryId = getQueryVariable('id');
+        $.ajax({
+            url:path+"/blog/content.do",
+            type:"post",
+            data:{"diaryId":diaryId},
+            dataType:"json",
+            success:function (result) {
+                if(result.status == 0){
+                    diaryTitle = result.data.b_diary_title;
+                    diaryCreate = result.data.b_diary_create_time;
+                    diaryContent = result.data.b_diary_body;
+                    createDiary(diaryTitle,diaryCreate,diaryContent);
+                }
+            },
+            error:function(){
+                alert("列表加载失败!");
+            }
+        });
+        //日记内容
+        function createDiary(diaryTitle,diaryCreate,diaryContent) {
+            $('#blogTitle').text(diaryTitle);
+            $('#blogDate').text(diaryCreate);
+            $('#blogContent').html(diaryContent);
+        };
+    });
+</script>
+</body>
+</html>

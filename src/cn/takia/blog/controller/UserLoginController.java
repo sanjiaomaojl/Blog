@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.annotation.Resource;
 
 @Controller
-@RequestMapping("/user")  //匹配请求路径
+@RequestMapping("/blog")  //匹配请求路径
 public class UserLoginController {
     @Resource
     private UserService userService;

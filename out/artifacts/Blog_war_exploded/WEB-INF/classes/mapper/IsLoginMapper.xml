@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+        "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="cn.takia.blog.dao.IsLoginDao">
+    <select id="findByUserId" resultType="cn.takia.blog.entity.User" parameterType="string">
+        select * from b_user where b_user_id=#{userId}
+    </select>
+</mapper>    
