@@ -5,6 +5,10 @@ import cn.takia.blog.entity.Blog;
 import java.util.List;
 
 public interface BlogDao {
-    public List<Blog> findByDiary();
-    public List<Blog> queryAllBlog();
+    List<Blog> findByDiary();
+    List<Blog> queryAllBlog();
+    void addBlog(Blog blog);
+    int delBlogs(List<String> ids);
+    int modifyBlog(Blog blog);
+    List<Blog> searchList(String title);
 }

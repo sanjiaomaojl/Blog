@@ -9,4 +9,37 @@
     <select id="queryAllBlog" resultType="cn.takia.blog.entity.Blog">
       select * from b_blog order by b_diary_create_time desc
     </select>
+    <insert id="addBlog" parameterType="cn.takia.blog.entity.Blog">
+        insert into b_blog (
+            b_diary_id,
+            b_diary_title,
+            b_diary_body,
+            b_diary_show_body,
+            b_diary_create_time,
+            b_diary_update_time)
+        values (
+            #{b_diary_id},
+            #{b_diary_title},
+            #{b_diary_body},
+            #{b_diary_show_body},
+            #{b_diary_create_time},
+            #{b_diary_update_time})
+    </insert>
+    <delete id="delBlogs" parameterType="int">
+        delete from b_blog where b_diary_id IN
+        <foreach collection="list" open="(" close=")" separator="," item="id">
+            #{id}
+        </foreach>
+    </delete>
+    <update id="modifyBlog" parameterType="cn.takia.blog.entity.Blog">
+        update b_blog set
+            b_diary_title=#{b_diary_title},
+            b_diary_body=#{b_diary_body},
+            b_diary_show_body=#{b_diary_show_body},
+            b_diary_update_time=#{b_diary_update_time}
+            where b_diary_id=#{b_diary_id}
+    </update>
+    <select id="searchList" resultType="cn.takia.blog.entity.Blog" parameterType="string">
+        select * from b_blog where b_diary_title like '%' #{b_diary_title} '%'
+    </select>
 </mapper>    

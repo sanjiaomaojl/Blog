@@ -6,6 +6,10 @@ import cn.takia.blog.util.NoteResult;
 import java.util.List;
 
 public interface BlogService {
-    public NoteResult<List<Blog>> loadBlogDiary();
-    public NoteResult<List<Blog>> queryAllBlogDesc();
+    NoteResult<List<Blog>> loadBlogDiary();
+    NoteResult<List<Blog>> queryAllBlogDesc();
+    NoteResult<Blog> addBlog(String title,String content,String showContent);
+    NoteResult<Object> delBlogs(List<String> ids);
+    NoteResult<Object> modifyBlog(String diaryId, String title,String content,String showContent);
+    NoteResult<List<Blog>> searchList(String title);
 }

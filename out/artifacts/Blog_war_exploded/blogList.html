@@ -75,10 +75,10 @@
                 <div class="card-body">
                     <form>
                         <div class="input-group">
-                            <input type="text" class="form-control" placeholder="输入你想查找的题目..."
-                                   aria-label="输入你想查找的题目...">
+                            <input id="title" type="text" class="form-control" placeholder="输入你想查找的标题..."
+                                   aria-label="输入你想查找的标题...">
                             <span class="input-group-btn">
-                                <a class="btn btn-primary">搜索</a>
+                                <a id="id_btn_search_submit" class="btn btn-primary">搜索</a>
                             </span>
                         </div>
                     </form>
@@ -140,7 +140,7 @@
             data:{"bId":bId},
             dataType:"json",
             success:function (result) {
-                if (result.status === 0) {
+                if (result.status == 0) {
                     $('#linkA').text(result.data.b_user_name);
                     if (result.data.b_user_name === 'demo') {
                         $('#linkB').text('博客管理').attr('href','blogManage.html');
@@ -158,38 +158,56 @@
         $.ajax({
             url:path+"/blog/list.do",
             type:"post",
-            data:{},
             dataType:"json",
             success:function (result) {
                 if(result.status == 0){
-                    var blog = result.data;
-                    for (var i = 0;i<=blog.length; i++){
-                        //获取博客日记ID
-                        var diaryId = blog[i].b_diary_id;
-                        var diaryTitle = blog[i].b_diary_title;
-                        var diaryCreate = blog[i].b_diary_create_time;
-                        createDiaryList(diaryId,diaryTitle,diaryCreate);
-                        addCookie("diaryId",diaryId,2);
+                    var blogs = result.data;
+                    var html;
+                    for (var i = 0;i<=blogs.length; i++){
+                        createDiaryList(blogs[i]);
+                        addCookie("diaryId",blogs[i].b_diary_id,2);
                     }
+                    $('#blogPoList').html(html);
                 }
             },
             error:function(){
                 alert("列表加载失败!");
             }
         });
+        //搜索
+        $("#id_btn_search_submit").bind("click", function () {
+            /*$('#blogPoList').remove();*/
+            $.ajax({
+                url: path + "/blog/searchList.do",
+                type: "post",
+                data: {"title": $('#title').val()},
+                dataType: "json",
+                success: function (result) {
+                    if (result.status == 0) {
+                        var blogs = result.data;
+                        var html;
+                        for (var i = 0; i <= blogs.length; i++) {
+                            createDiaryList(blogs[i]);
+                            addCookie("diaryId", blogs[i].b_diary_id, 2);
+                        }
+                        $('#blogPoList').html(html);
+                    }
+                },
+                error: function () {
+                    alert("列表加载失败!");
+                }
+            });
+        });
         //传参显示日记的名字和创建时间
-        function createDiaryList(diaryId,diaryTitle,diaryCreate) {
-            var blog='';
-            blog = blog +
-                '<div class="card mt-3">\n' +
-                '    <div class="card-body">\n' +
-                '        <a href="blogDetail.html?id=' + diaryId + '" class="text-dark"><h4\n' +
-                '                class="card-title font-weight-bold">' + diaryTitle + '</h4>\n' +
-                '        </a>\n' +
-                '        <p class="text-right text-secondary">' + diaryCreate + '</p>\n' +
-                '    </div>\n' +
-                '</div>\n';
-            $('#blogPoList').append(blog);
+        function createDiaryList(item) {
+            html += '<div class=card mt-3">"';
+            html += '<div class="card-body">';
+            html += '<a href="blogDetail.html?id=' + item.b_diary_id + '" class="text-dark">';
+            html += '<h4 class="card-title font-weight-bold">' + item.b_diary_title + '</h4>';
+            html += '</a>';
+            html += '<p class="text-right text-secondary">' + item.b_diary_create_time + '</p>';
+            html += '</div>';
+            html += '</div>';
         };
     });
 </script>

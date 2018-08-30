@@ -7,770 +7,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="934ad649-3b3a-412e-a36f-3c956001684b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/takia/blog/controller/BlogListController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/takia/blog/controller/IsLoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/takia/blog/controller/LoadDiaryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/takia/blog/controller/LoginOutController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/takia/blog/dao/BlogDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/takia/blog/dao/DiaryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/takia/blog/dao/IsLoginDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/takia/blog/entity/Blog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/takia/blog/service/BlogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/takia/blog/service/BlogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/takia/blog/service/DiaryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/takia/blog/service/DiaryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/takia/blog/service/IsLoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/takia/blog/service/IsLoginServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/takia/blog/test/dao/TestBlogDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/takia/blog/test/dao/TestDiaryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/takia/blog/test/dao/TestIsLoginDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/takia/blog/test/service/TestBlogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/takia/blog/test/service/TestDiaryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/takia/blog/test/service/TestIsLoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mapper/BlogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mapper/DiaryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mapper/IsLoginMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/blogDetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/blogEdit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/blogList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/blogManage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/blogModify.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/full-slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/public.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/sb-admin/sb-admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/sb-admin/sb-admin.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/ui-bg_glass_100_f6f6f6_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/ui-bg_glass_100_fdf5ce_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/ui-icons_228ef1_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/ui-icons_ef8c08_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/ui-icons_ffd27a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/scripts/b_blog_manage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/scripts/f_footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/bootstrap-social/bootstrap-social.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/bootstrap-social/bootstrap-social.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/bootstrap-social/bootstrap-social.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables-plugins/dataTables.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables-plugins/dataTables.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables-plugins/dataTables.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables-plugins/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables-responsive/dataTables.responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables-responsive/dataTables.responsive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables-responsive/dataTables.responsive.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/css/dataTables.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/css/dataTables.bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/css/dataTables.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/css/dataTables.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/css/dataTables.foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/css/dataTables.foundation.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/css/dataTables.jqueryui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/css/dataTables.jqueryui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/css/dataTables.material.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/css/dataTables.material.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/css/dataTables.semanticui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/css/dataTables.semanticui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/css/dataTables.uikit.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/css/dataTables.uikit.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/css/jquery.dataTables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/css/jquery.dataTables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/css/jquery.dataTables_themeroller.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/images/Sorting icons.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/images/sort_asc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/images/sort_asc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/images/sort_both.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/images/sort_desc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/images/sort_desc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/js/dataTables.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/js/dataTables.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/js/dataTables.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/js/dataTables.bootstrap4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/js/dataTables.foundation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/js/dataTables.foundation.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/js/dataTables.jqueryui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/js/dataTables.jqueryui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/js/dataTables.material.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/js/dataTables.material.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/js/dataTables.semanticui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/js/dataTables.semanticui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/js/dataTables.uikit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/js/dataTables.uikit.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/js/jquery.dataTables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/js/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/datatables/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/flot-tooltip/jquery.flot.tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/flot-tooltip/jquery.flot.tooltip.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/flot-tooltip/jquery.flot.tooltip.source.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/flot/excanvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/flot/excanvas.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/flot/jquery.colorhelpers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/flot/jquery.flot.canvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/flot/jquery.flot.categories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/flot/jquery.flot.crosshair.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/flot/jquery.flot.errorbars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/flot/jquery.flot.fillbetween.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/flot/jquery.flot.image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/flot/jquery.flot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/flot/jquery.flot.navigate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/flot/jquery.flot.pie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/flot/jquery.flot.resize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/flot/jquery.flot.selection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/flot/jquery.flot.stack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/flot/jquery.flot.symbol.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/flot/jquery.flot.threshold.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/flot/jquery.flot.time.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/flot/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/css/font-awesome.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/less/extras.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/less/spinning.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/scss/_extras.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/scss/_spinning.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/font-awesome/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/metisMenu/metisMenu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/metisMenu/metisMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/metisMenu/metisMenu.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/metisMenu/metisMenu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/morrisjs/morris.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/morrisjs/morris.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/morrisjs/morris.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/raphael/raphael.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/admin/raphael/raphael.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/css/editormd.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/css/editormd.logo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/css/editormd.logo.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/css/editormd.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/css/editormd.preview.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/css/editormd.preview.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/editormd.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/fonts/editormd-logo.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/fonts/editormd-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/fonts/editormd-logo.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/fonts/editormd-logo.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/images/loading@2x.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/images/loading@3x.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/images/logos/editormd-favicon-16x16.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/images/logos/editormd-favicon-24x24.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/images/logos/editormd-favicon-32x32.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/images/logos/editormd-favicon-48x48.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/images/logos/editormd-favicon-64x64.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/images/logos/editormd-logo-114x114.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/images/logos/editormd-logo-120x120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/images/logos/editormd-logo-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/images/logos/editormd-logo-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/images/logos/editormd-logo-180x180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/images/logos/editormd-logo-240x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/images/logos/editormd-logo-24x24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/images/logos/editormd-logo-320x320.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/images/logos/editormd-logo-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/images/logos/editormd-logo-48x48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/images/logos/editormd-logo-57x57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/images/logos/editormd-logo-64x64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/images/logos/editormd-logo-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/images/logos/editormd-logo-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/images/logos/vi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/AUTHORS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/comment/comment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/comment/continuecomment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/dialog/dialog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/dialog/dialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/display/fullscreen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/display/fullscreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/display/panel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/display/placeholder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/display/rulers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/edit/closebrackets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/edit/closetag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/edit/continuelist.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/edit/matchbrackets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/edit/matchtags.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/edit/trailingspace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/fold/brace-fold.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/fold/comment-fold.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/fold/foldcode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/fold/foldgutter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/fold/foldgutter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/fold/indent-fold.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/fold/markdown-fold.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/fold/xml-fold.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/hint/anyword-hint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/hint/css-hint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/hint/html-hint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/hint/javascript-hint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/hint/show-hint.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/hint/show-hint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/hint/sql-hint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/hint/xml-hint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/lint/coffeescript-lint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/lint/css-lint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/lint/javascript-lint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/lint/json-lint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/lint/lint.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/lint/lint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/lint/yaml-lint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/merge/merge.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/merge/merge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/mode/loadmode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/mode/multiplex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/mode/multiplex_test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/mode/overlay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/mode/simple.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/runmode/colorize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/runmode/runmode-standalone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/runmode/runmode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/runmode/runmode.node.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/scroll/annotatescrollbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/scroll/scrollpastend.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/scroll/simplescrollbars.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/scroll/simplescrollbars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/search/match-highlighter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/search/matchesonscrollbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/search/matchesonscrollbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/search/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/search/searchcursor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/selection/active-line.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/selection/mark-selection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/selection/selection-pointer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/tern/tern.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/tern/tern.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/tern/worker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addon/wrap/hardwrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/addons.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/codemirror.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/codemirror.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/lib/codemirror.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/lib/codemirror.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/apl/apl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/apl/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/asterisk/asterisk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/asterisk/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/clike/clike.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/clike/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/clike/scala.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/clojure/clojure.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/clojure/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/cobol/cobol.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/cobol/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/coffeescript/coffeescript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/coffeescript/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/commonlisp/commonlisp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/commonlisp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/css/css.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/css/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/css/less.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/css/less_test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/css/scss.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/css/scss_test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/css/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/cypher/cypher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/cypher/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/d/d.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/d/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/dart/dart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/dart/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/diff/diff.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/diff/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/django/django.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/django/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/dockerfile/dockerfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/dockerfile/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/dtd/dtd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/dtd/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/dylan/dylan.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/dylan/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/ebnf/ebnf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/ebnf/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/ecl/ecl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/ecl/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/eiffel/eiffel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/eiffel/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/erlang/erlang.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/erlang/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/forth/forth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/forth/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/fortran/fortran.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/fortran/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/gas/gas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/gas/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/gfm/gfm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/gfm/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/gfm/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/gherkin/gherkin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/gherkin/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/go/go.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/go/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/groovy/groovy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/groovy/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/haml/haml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/haml/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/haml/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/haskell/haskell.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/haskell/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/haxe/haxe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/haxe/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/htmlembedded/htmlembedded.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/htmlembedded/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/htmlmixed/htmlmixed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/htmlmixed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/http/http.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/http/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/idl/idl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/idl/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/jade/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/jade/jade.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/javascript/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/javascript/javascript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/javascript/json-ld.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/javascript/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/javascript/typescript.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/jinja2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/jinja2/jinja2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/julia/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/julia/julia.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/kotlin/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/kotlin/kotlin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/livescript/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/livescript/livescript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/lua/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/lua/lua.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/markdown/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/markdown/markdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/markdown/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/meta.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/mirc/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/mirc/mirc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/mllike/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/mllike/mllike.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/modelica/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/modelica/modelica.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/nginx/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/nginx/nginx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/ntriples/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/ntriples/ntriples.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/octave/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/octave/octave.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/pascal/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/pascal/pascal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/pegjs/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/pegjs/pegjs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/perl/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/perl/perl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/php/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/php/php.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/php/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/pig/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/pig/pig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/properties/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/properties/properties.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/puppet/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/puppet/puppet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/python/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/python/python.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/q/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/q/q.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/r/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/r/r.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/rpm/changes/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/rpm/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/rpm/rpm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/rst/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/rst/rst.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/ruby/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/ruby/ruby.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/ruby/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/rust/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/rust/rust.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/sass/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/sass/sass.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/scheme/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/scheme/scheme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/shell/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/shell/shell.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/shell/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/sieve/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/sieve/sieve.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/slim/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/slim/slim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/slim/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/smalltalk/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/smalltalk/smalltalk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/smarty/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/smarty/smarty.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/smartymixed/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/smartymixed/smartymixed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/solr/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/solr/solr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/soy/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/soy/soy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/sparql/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/sparql/sparql.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/spreadsheet/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/spreadsheet/spreadsheet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/sql/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/sql/sql.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/stex/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/stex/stex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/stex/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/stylus/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/stylus/stylus.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/tcl/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/tcl/tcl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/textile/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/textile/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/textile/textile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/tiddlywiki/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/tiddlywiki/tiddlywiki.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/tiddlywiki/tiddlywiki.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/tiki/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/tiki/tiki.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/tiki/tiki.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/toml/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/toml/toml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/tornado/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/tornado/tornado.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/turtle/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/turtle/turtle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/vb/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/vb/vb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/vbscript/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/vbscript/vbscript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/velocity/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/velocity/velocity.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/verilog/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/verilog/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/verilog/verilog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/xml/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/xml/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/xml/xml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/xquery/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/xquery/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/xquery/xquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/yaml/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/yaml/yaml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/z80/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/mode/z80/z80.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/modes.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/theme/3024-day.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/theme/3024-night.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/theme/ambiance-mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/theme/ambiance.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/theme/base16-dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/theme/base16-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/theme/blackboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/theme/cobalt.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/theme/colorforth.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/theme/eclipse.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/theme/elegant.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/theme/erlang-dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/theme/lesser-dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/theme/mbo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/theme/mdn-like.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/theme/midnight.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/theme/monokai.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/theme/neat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/theme/neo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/theme/night.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/theme/paraiso-dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/theme/paraiso-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/theme/pastel-on-dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/theme/rubyblue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/theme/solarized.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/theme/the-matrix.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/theme/tomorrow-night-bright.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/theme/tomorrow-night-eighties.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/theme/twilight.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/theme/vibrant-ink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/theme/xq-dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/theme/xq-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/codemirror/theme/zenburn.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/flowchart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/jquery.flowchart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/marked.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/prettify.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/raphael.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/sequence-diagram.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/lib/underscore.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/plugins/code-block-dialog/code-block-dialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/plugins/emoji-dialog/emoji-dialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/plugins/emoji-dialog/emoji.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/plugins/goto-line-dialog/goto-line-dialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/plugins/help-dialog/help-dialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/plugins/help-dialog/help.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/plugins/html-entities-dialog/html-entities-dialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/plugins/html-entities-dialog/html-entities.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/plugins/image-dialog/image-dialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/plugins/link-dialog/link-dialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/plugins/plugin-template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/plugins/preformatted-text-dialog/preformatted-text-dialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/plugins/reference-link-dialog/reference-link-dialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/plugins/table-dialog/table-dialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/plugins/test-plugin/test-plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/scss/editormd.codemirror.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/scss/editormd.dialog.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/scss/editormd.form.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/scss/editormd.grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/scss/editormd.logo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/scss/editormd.menu.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/scss/editormd.preview.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/scss/editormd.preview.themes.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/scss/editormd.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/scss/editormd.tab.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/scss/editormd.themes.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/scss/github-markdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/scss/lib/prefixes.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/scss/lib/variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/editor/scss/prettify.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/css/font-awesome.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/less/extras.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/less/spinning.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/scss/_extras.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/scss/_spinning.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/font-awesome/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/jquery-easing/jquery.easing.compatibility.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/jquery-easing/jquery.easing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/jquery-easing/jquery.easing.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/landing-page/landing-page.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/vendor/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/cn/takia/blog/controller/AddBlogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/cn/takia/blog/controller/DelBlogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/cn/takia/blog/controller/SearchListController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/cn/takia/blog/controller/modifyBlogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/cn/takia/blog/util/BlogUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/dist/admin/css/sb-admin-2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/dist/admin/css/sb-admin-2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/dist/admin/js/sb-admin-2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/dist/admin/js/sb-admin-2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/scripts/public.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Blog/cn/takia/blog/controller/AddBlogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Blog/cn/takia/blog/controller/DelBlogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Blog/cn/takia/blog/controller/SearchListController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Blog/cn/takia/blog/controller/modifyBlogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Blog/cn/takia/blog/util/BlogUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/takia/blog/controller/AddBlogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/takia/blog/controller/DelBlogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/takia/blog/controller/SearchListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/takia/blog/controller/modifyBlogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/takia/blog/util/BlogUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/dist/admin/css/sb-admin-2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/dist/admin/css/sb-admin-2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/dist/admin/js/sb-admin-2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/dist/admin/js/sb-admin-2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/scripts/public.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/cn/takia/blog/controller/UserLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/cn/takia/blog/controller/UserLoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/cn/takia/blog/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/cn/takia/blog/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/cn/takia/blog/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/cn/takia/blog/service/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/log_in.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/log_in.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/scripts/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/scripts/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/styles/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blog/cn/takia/blog/controller/UserLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blog/cn/takia/blog/controller/UserLoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blog/cn/takia/blog/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blog/cn/takia/blog/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blog/cn/takia/blog/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blog/cn/takia/blog/service/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blog/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blog/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/takia/blog/controller/UserLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/takia/blog/controller/UserLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/takia/blog/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/takia/blog/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/takia/blog/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/takia/blog/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/log_in.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/log_in.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/scripts/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/scripts/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/styles/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/cn/takia/blog/dao/BlogDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/cn/takia/blog/dao/BlogDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/cn/takia/blog/entity/Blog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/cn/takia/blog/entity/Blog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/cn/takia/blog/service/BlogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/cn/takia/blog/service/BlogService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/cn/takia/blog/service/BlogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/cn/takia/blog/service/BlogServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/cn/takia/blog/test/dao/TestBlogDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/cn/takia/blog/test/dao/TestBlogDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/cn/takia/blog/test/service/TestBlogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/cn/takia/blog/test/service/TestBlogService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/mapper/BlogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/WEB-INF/classes/mapper/BlogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/blogDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/blogDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/blogEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/blogEdit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/blogList.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/blogList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/blogManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/blogManage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/blogModify.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/blogModify.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/scripts/b_blog_manage.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Blog_war_exploded/scripts/b_blog_manage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blog/cn/takia/blog/dao/BlogDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blog/cn/takia/blog/dao/BlogDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blog/cn/takia/blog/entity/Blog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blog/cn/takia/blog/entity/Blog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blog/cn/takia/blog/service/BlogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blog/cn/takia/blog/service/BlogService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blog/cn/takia/blog/service/BlogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blog/cn/takia/blog/service/BlogServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blog/cn/takia/blog/test/dao/TestBlogDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blog/cn/takia/blog/test/dao/TestBlogDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blog/cn/takia/blog/test/service/TestBlogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blog/cn/takia/blog/test/service/TestBlogService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blog/mapper/BlogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blog/mapper/BlogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/takia/blog/dao/BlogDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/takia/blog/dao/BlogDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/takia/blog/entity/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/takia/blog/entity/Blog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/takia/blog/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/takia/blog/service/BlogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/takia/blog/service/BlogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/takia/blog/service/BlogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/takia/blog/test/dao/TestBlogDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/takia/blog/test/dao/TestBlogDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/takia/blog/test/service/TestBlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/takia/blog/test/service/TestBlogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mapper/BlogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/mapper/BlogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/blogDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/blogDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/blogEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/blogEdit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/blogList.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/blogList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/blogManage.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/blogManage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/blogModify.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/blogModify.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/scripts/b_blog_manage.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/scripts/b_blog_manage.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -783,57 +78,60 @@
     <session id="-575448509">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.13" value="1" />
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.13" value="3" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.25" value="2" />
+          <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="5" />
           <entry key="gif" value="1" />
-          <entry key="html" value="50" />
-          <entry key="java" value="120" />
-          <entry key="js" value="33" />
+          <entry key="html" value="85" />
+          <entry key="java" value="203" />
+          <entry key="js" value="45" />
           <entry key="properties" value="3" />
-          <entry key="xml" value="28" />
+          <entry key="xml" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="5" />
-          <entry key="HTML" value="50" />
+          <entry key="HTML" value="85" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="120" />
-          <entry key="JavaScript" value="33" />
+          <entry key="JAVA" value="203" />
+          <entry key="JavaScript" value="45" />
           <entry key="Properties" value="3" />
-          <entry key="XML" value="28" />
+          <entry key="XML" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="6" />
-          <entry key="html" value="1695" />
-          <entry key="java" value="2722" />
-          <entry key="js" value="46" />
+          <entry key="dummy" value="14" />
+          <entry key="html" value="2414" />
+          <entry key="java" value="4856" />
+          <entry key="js" value="328" />
           <entry key="properties" value="4" />
-          <entry key="xml" value="485" />
+          <entry key="xml" value="747" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1695" />
-          <entry key="JAVA" value="2722" />
-          <entry key="JavaScript" value="46" />
-          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="HTML" value="2414" />
+          <entry key="JAVA" value="4856" />
+          <entry key="JavaScript" value="328" />
+          <entry key="PLAIN_TEXT" value="14" />
           <entry key="Properties" value="4" />
-          <entry key="SQL" value="14" />
-          <entry key="XML" value="471" />
+          <entry key="SQL" value="46" />
+          <entry key="XML" value="701" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.core.usages.trigger">
@@ -846,34 +144,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/scripts/b_blog_manage.js">
+        <entry file="file://$PROJECT_DIR$/web/blogList.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/controller/BlogListController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/service/BlogServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="183">
+              <caret line="202" column="16" selection-start-line="202" selection-start-column="12" selection-end-line="202" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -900,11 +174,25 @@
       <find>images</find>
       <find>login</find>
       <find>sta</find>
-      <find>static</find>
       <find>blogTitle</find>
       <find>bootstraptable</find>
       <find>stat</find>
       <find>b</find>
+      <find>c_confirm</find>
+      <find>public</find>
+      <find>标题</find>
+      <find>/static/</find>
+      <find>bas</find>
+      <find>bootstrapTable</find>
+      <find>static</find>
+      <find>alert</find>
+      <find>al</find>
+      <find>网络</find>
+      <find>btn-primary</find>
+      <find>btn</find>
+      <find>id_btn_search_submit</find>
+      <find>id_btn_blog_submit</find>
+      <find>blogPoList</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -919,9 +207,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/conf/db.properties" />
-        <option value="$PROJECT_DIR$/src/cn/takia/blog/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/cn/takia/blog/test/dao/TestUserDao.java" />
         <option value="$PROJECT_DIR$/src/conf/spring-mybatis.xml" />
         <option value="$PROJECT_DIR$/src/cn/takia/blog/util/NoteResult.java" />
@@ -933,10 +218,6 @@
         <option value="$PROJECT_DIR$/src/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/web/log_in.html" />
-        <option value="$PROJECT_DIR$/src/cn/takia/blog/entity/Blog.java" />
-        <option value="$PROJECT_DIR$/src/cn/takia/blog/test/dao/TestBlogDao.java" />
-        <option value="$PROJECT_DIR$/src/cn/takia/blog/test/service/TestBlogService.java" />
-        <option value="$PROJECT_DIR$/web/blogEdit.html" />
         <option value="$PROJECT_DIR$/src/cn/takia/blog/controller/UserLoginController.java" />
         <option value="$PROJECT_DIR$/src/cn/takia/blog/service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/mapper/IsLoginMapper.xml" />
@@ -952,19 +233,31 @@
         <option value="$PROJECT_DIR$/src/cn/takia/blog/service/DiaryServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/cn/takia/blog/test/service/TestDiaryService.java" />
         <option value="$PROJECT_DIR$/src/cn/takia/blog/controller/LoadDiaryController.java" />
-        <option value="$PROJECT_DIR$/web/blogDetail.html" />
-        <option value="$PROJECT_DIR$/web/blogManage.html" />
-        <option value="$PROJECT_DIR$/src/cn/takia/blog/dao/BlogDao.java" />
-        <option value="$PROJECT_DIR$/src/mapper/BlogMapper.xml" />
-        <option value="$PROJECT_DIR$/src/cn/takia/blog/service/BlogService.java" />
-        <option value="$PROJECT_DIR$/src/cn/takia/blog/service/BlogServiceImpl.java" />
-        <option value="$PROJECT_DIR$/web/blogList.html" />
         <option value="$PROJECT_DIR$/src/cn/takia/blog/dao/IsLoginDao.java" />
         <option value="$PROJECT_DIR$/src/cn/takia/blog/service/IsLoginService.java" />
         <option value="$PROJECT_DIR$/src/cn/takia/blog/service/IsLoginServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/cn/takia/blog/controller/IsLoginController.java" />
         <option value="$PROJECT_DIR$/src/cn/takia/blog/controller/BlogListController.java" />
+        <option value="$PROJECT_DIR$/src/cn/takia/blog/util/BlogUtil.java" />
+        <option value="$PROJECT_DIR$/src/cn/takia/blog/entity/Blog.java" />
+        <option value="$PROJECT_DIR$/src/cn/takia/blog/controller/AddBlogController.java" />
+        <option value="$PROJECT_DIR$/web/blogEdit.html" />
+        <option value="$PROJECT_DIR$/src/cn/takia/blog/controller/DelBlogsConreoller.java" />
+        <option value="$PROJECT_DIR$/src/cn/takia/blog/controller/DelBlogConreoller.java" />
+        <option value="$PROJECT_DIR$/web/blogManage.html" />
+        <option value="$PROJECT_DIR$/src/cn/takia/blog/controller/DelBlogController.java" />
         <option value="$PROJECT_DIR$/web/scripts/b_blog_manage.js" />
+        <option value="$PROJECT_DIR$/src/cn/takia/blog/controller/modifyBlogController.java" />
+        <option value="$PROJECT_DIR$/web/blogModify.html" />
+        <option value="$PROJECT_DIR$/web/blogDetail.html" />
+        <option value="$PROJECT_DIR$/src/cn/takia/blog/dao/BlogDao.java" />
+        <option value="$PROJECT_DIR$/src/cn/takia/blog/service/BlogService.java" />
+        <option value="$PROJECT_DIR$/src/cn/takia/blog/service/BlogServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/cn/takia/blog/controller/SearchListController.java" />
+        <option value="$PROJECT_DIR$/src/cn/takia/blog/test/service/TestBlogService.java" />
+        <option value="$PROJECT_DIR$/src/cn/takia/blog/test/dao/TestBlogDao.java" />
+        <option value="$PROJECT_DIR$/src/mapper/BlogMapper.xml" />
+        <option value="$PROJECT_DIR$/web/blogList.html" />
       </list>
     </option>
   </component>
@@ -987,9 +280,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="566" />
-    <option name="y" value="26" />
-    <option name="width" value="1359" />
+    <option name="x" value="422" />
+    <option name="y" value="15" />
+    <option name="width" value="1360" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -1005,8 +298,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1038,13 +329,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Blog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
@@ -1093,16 +377,12 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Blog" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1112,7 +392,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535548495859" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535635655705" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -1126,8 +406,8 @@
       <recent name="D:\IDEA-workspace\Blog\web" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IDEA-workspace\Blog\web\scripts" />
       <recent name="D:\IDEA-workspace\Blog\web" />
+      <recent name="D:\IDEA-workspace\Blog\web\scripts" />
       <recent name="D:\IDEA-workspace\Blog\web\images" />
       <recent name="D:\IDEA-workspace\Blog\web\css" />
       <recent name="D:\IDEA-workspace\Blog\web\WEB-INF" />
@@ -1146,7 +426,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.blogList.html">
-    <configuration name="TestDiaryDao.testUserDao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBlogDao.testSearchListDao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Blog" />
       <extension name="coverage">
         <pattern>
@@ -1155,30 +435,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.takia.blog.test.dao" />
-      <option name="MAIN_CLASS_NAME" value="cn.takia.blog.test.dao.TestDiaryDao" />
-      <option name="METHOD_NAME" value="testUserDao" />
+      <option name="MAIN_CLASS_NAME" value="cn.takia.blog.test.dao.TestBlogDao" />
+      <option name="METHOD_NAME" value="testSearchListDao" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDiaryService.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Blog" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.takia.blog.test.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.takia.blog.test.service" />
-      <option name="MAIN_CLASS_NAME" value="cn.takia.blog.test.service.TestDiaryService" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestIsLoginDao.testUserDao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBlogDao.testsearchListDao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Blog" />
       <extension name="coverage">
         <pattern>
@@ -1187,14 +451,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.takia.blog.test.dao" />
-      <option name="MAIN_CLASS_NAME" value="cn.takia.blog.test.dao.TestIsLoginDao" />
-      <option name="METHOD_NAME" value="testUserDao" />
+      <option name="MAIN_CLASS_NAME" value="cn.takia.blog.test.dao.TestBlogDao" />
+      <option name="METHOD_NAME" value="testsearchListDao" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestIsLoginService.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBlogService.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Blog" />
       <extension name="coverage">
         <pattern>
@@ -1203,8 +467,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.takia.blog.test.service" />
-      <option name="MAIN_CLASS_NAME" value="cn.takia.blog.test.service.TestIsLoginService" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="cn.takia.blog.test.service.TestBlogService" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBlogService.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.takia.blog.test.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.takia.blog.test.service" />
+      <option name="MAIN_CLASS_NAME" value="cn.takia.blog.test.service.TestBlogService" />
+      <option name="METHOD_NAME" value="test5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -1226,6 +506,21 @@
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -1250,6 +545,7 @@
     </configuration>
     <configuration name="blogList.html" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.10" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/blogList.html" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <deployment>
         <artifact name="Blog:war exploded">
           <settings>
@@ -1265,6 +561,39 @@
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5814" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -1290,18 +619,18 @@
     <list>
       <item itemvalue="Tomcat Server.Tomcat 9.0.10" />
       <item itemvalue="Tomcat Server.blogList.html" />
-      <item itemvalue="JUnit.TestIsLoginDao.testUserDao" />
-      <item itemvalue="JUnit.TestIsLoginService.test1" />
-      <item itemvalue="JUnit.TestDiaryDao.testUserDao" />
-      <item itemvalue="JUnit.TestDiaryService.test" />
+      <item itemvalue="JUnit.TestBlogService.test4" />
+      <item itemvalue="JUnit.TestBlogDao.testsearchListDao" />
+      <item itemvalue="JUnit.TestBlogService.test5" />
+      <item itemvalue="JUnit.TestBlogDao.testSearchListDao" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Tomcat Server.blogList.html" />
-        <item itemvalue="JUnit.TestDiaryService.test" />
-        <item itemvalue="JUnit.TestDiaryDao.testUserDao" />
-        <item itemvalue="JUnit.TestIsLoginService.test1" />
-        <item itemvalue="JUnit.TestIsLoginDao.testUserDao" />
+        <item itemvalue="JUnit.TestBlogService.test5" />
+        <item itemvalue="JUnit.TestBlogDao.testSearchListDao" />
+        <item itemvalue="JUnit.TestBlogDao.testsearchListDao" />
+        <item itemvalue="JUnit.TestBlogService.test4" />
       </list>
     </recent_temporary>
   </component>
@@ -1321,49 +650,55 @@
       <workItem from="1535525385444" duration="4521000" />
       <workItem from="1535530351287" duration="14748000" />
       <workItem from="1535547372352" duration="1127000" />
+      <workItem from="1535594095104" duration="21322000" />
+      <workItem from="1535618026050" duration="2312000" />
+      <workItem from="1535622735005" duration="4253000" />
+      <workItem from="1535627070334" duration="1392000" />
+      <workItem from="1535628502655" duration="7044000" />
+      <workItem from="1535637093440" duration="116000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestBlogDao_testUserDao - 2018.08.29 at 11h 16m 57s.xml">
-      <configuration name="TestBlogDao.testUserDao" configurationId="JUnit" />
+    <history-entry file="TestBlogService_test4 - 2018.08.30 at 19h 05m 56s.xml">
+      <configuration name="TestBlogService.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestBlogDao_testUserDao - 2018.08.29 at 11h 17m 44s.xml">
-      <configuration name="TestBlogDao.testUserDao" configurationId="JUnit" />
+    <history-entry file="TestBlogService_test4 - 2018.08.30 at 19h 06m 52s.xml">
+      <configuration name="TestBlogService.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestBlogDao_testUserDao - 2018.08.29 at 11h 18m 39s.xml">
-      <configuration name="TestBlogDao.testUserDao" configurationId="JUnit" />
+    <history-entry file="TestBlogDao_modifyBlog - 2018.08.30 at 19h 08m 39s.xml">
+      <configuration name="TestBlogDao.modifyBlog" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestBlogService_test1 - 2018.08.29 at 11h 51m 35s.xml">
-      <configuration name="TestBlogService.test1" configurationId="JUnit" />
+    <history-entry file="TestBlogService_test4 - 2018.08.30 at 19h 08m 53s.xml">
+      <configuration name="TestBlogService.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestIsLoginDao_testUserDao - 2018.08.29 at 16h 38m 55s.xml">
-      <configuration name="TestIsLoginDao.testUserDao" configurationId="JUnit" />
+    <history-entry file="TestBlogDao_testsearchListDao - 2018.08.30 at 20h 04m 27s.xml">
+      <configuration name="TestBlogDao.testsearchListDao" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestIsLoginService_test1 - 2018.08.29 at 16h 51m 59s.xml">
-      <configuration name="TestIsLoginService.test1" configurationId="JUnit" />
+    <history-entry file="TestBlogDao_testsearchListDao - 2018.08.30 at 20h 04m 52s.xml">
+      <configuration name="TestBlogDao.testsearchListDao" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestIsLoginService_test1 - 2018.08.29 at 16h 52m 57s.xml">
-      <configuration name="TestIsLoginService.test1" configurationId="JUnit" />
+    <history-entry file="TestBlogService_test5 - 2018.08.30 at 20h 28m 19s.xml">
+      <configuration name="TestBlogService.test5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestIsLoginService_test1 - 2018.08.29 at 16h 55m 08s.xml">
-      <configuration name="TestIsLoginService.test1" configurationId="JUnit" />
+    <history-entry file="TestBlogDao_testSearchListDao - 2018.08.30 at 20h 28m 55s.xml">
+      <configuration name="TestBlogDao.testSearchListDao" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDiaryDao_testUserDao - 2018.08.29 at 19h 00m 28s.xml">
-      <configuration name="TestDiaryDao.testUserDao" configurationId="JUnit" />
+    <history-entry file="TestBlogDao_testSearchListDao - 2018.08.30 at 20h 29m 19s.xml">
+      <configuration name="TestBlogDao.testSearchListDao" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDiaryService_test - 2018.08.29 at 19h 07m 52s.xml">
-      <configuration name="TestDiaryService.test" configurationId="JUnit" />
+    <history-entry file="TestBlogService_test5 - 2018.08.30 at 20h 29m 34s.xml">
+      <configuration name="TestBlogService.test5" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43748000" />
+    <option name="totallyTimeSpent" value="80187000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17895442" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18230563" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1372,8 +707,43 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32531825" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7407932" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3243626" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.51133144" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41501418" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1541555" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3243626" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.83002836" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1396,41 +766,6 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="Web" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.27345845" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" order="0" />
-      <window_info anchor="bottom" id="Spring" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="4" />
-      <window_info anchor="bottom" id="Java Enterprise" order="5" />
-      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="8" />
-      <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.688826" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="14" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Maven Projects" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Bean Validation" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1443,65 +778,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/conf/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/conf/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.html" />
-    <entry file="file://$PROJECT_DIR$/web/css/sb-admin/sb-admin.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/login.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/test/dao/TestBlogDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/scripts/jquery-1.4.3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14424">
-          <caret line="615" selection-start-line="615" selection-end-line="615" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/vendor/admin/font-awesome/css/font-awesome.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="7671" selection-start-line="3" selection-start-column="7671" selection-end-line="3" selection-end-column="7671" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/vendor/admin/bootstrap/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="4" column="72977" selection-start-line="4" selection-start-column="72977" selection-end-line="4" selection-end-column="72977" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/vendor/admin/flot/jquery.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/scripts/base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -1513,9 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1523,9 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1540,16 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1560,20 +820,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/dao/DiaryDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/test/service/TestUserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="485">
           <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="24" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1595,40 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/service/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="32" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/service/DiaryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#449#455#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1636,9 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="413">
           <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1646,9 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1656,75 +866,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
           <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/service/DiaryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/scripts/f_footer.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/blogDetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1699">
-          <caret line="170" column="35" selection-start-line="170" selection-start-column="35" selection-end-line="170" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/blogModify.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3825" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/test/service/TestBlogService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="20" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/dao/BlogDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/log_in.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/blogManage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="124" column="29" selection-start-line="124" selection-start-column="29" selection-end-line="124" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mapper/BlogMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1735,73 +886,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/entity/Blog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="29" />
-          <folding>
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#967#968#0" expanded="true" />
-            <element signature="e#1029#1030#0" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
-            <element signature="e#1117#1118#0" expanded="true" />
-            <element signature="e#1187#1188#0" expanded="true" />
-            <element signature="e#1249#1250#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-403">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/service/BlogService.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/controller/IsLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/dist/admin/js/sb-admin-2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/vendor/admin/flot/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6090" column="12" selection-start-line="6090" selection-start-column="12" selection-end-line="6090" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/service/DiaryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/service/IsLoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/service/IsLoginServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/service/DiaryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/controller/AddBlogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="19" column="82" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/util/BlogUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/entity/Blog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/blogList.html">
+    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/dao/DiaryDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="149" column="74" selection-start-line="149" selection-start-column="74" selection-end-line="149" selection-end-column="74" />
-          <folding>
-            <element signature="e#3737#3743#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1812,67 +989,146 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/service/IsLoginService.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/service/IsLoginServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/web/scripts/public.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="629">
+          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/controller/IsLoginController.java">
+    <entry file="file://$PROJECT_DIR$/src/conf/spring-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="168">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/controller/BlogListController.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/controller/DelBlogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/blogEdit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="139" column="36" lean-forward="true" selection-start-line="139" selection-start-column="36" selection-end-line="139" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/service/BlogServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="413">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/scripts/b_blog_manage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+        <state relative-caret-position="2976">
+          <caret line="124" column="16" selection-start-line="124" selection-start-column="14" selection-end-line="124" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/controller/modifyBlogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="18" column="92" selection-start-line="18" selection-start-column="92" selection-end-line="18" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/blogManage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="124" column="27" lean-forward="true" selection-start-line="124" selection-start-column="27" selection-end-line="124" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/blogEdit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/blogDetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-43">
+          <caret line="37" column="59" selection-start-line="37" selection-start-column="59" selection-end-line="37" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/blogModify.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="181" column="56" lean-forward="true" selection-start-line="181" selection-start-column="56" selection-end-line="181" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/controller/BlogListController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/service/BlogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mapper/BlogMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="42" column="74" lean-forward="true" selection-start-line="42" selection-start-column="74" selection-end-line="42" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/test/dao/TestBlogDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="73" column="38" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/service/BlogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="95" column="28" lean-forward="true" selection-start-line="95" selection-start-column="28" selection-end-line="95" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/test/service/TestBlogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="64" column="52" selection-start-line="64" selection-start-column="52" selection-end-line="64" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/controller/SearchListController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/takia/blog/dao/BlogDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/scripts/jquery-1.4.3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="4543" column="4" selection-start-line="4543" selection-start-column="4" selection-end-line="4543" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/blogList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="202" column="16" selection-start-line="202" selection-start-column="12" selection-end-line="202" selection-end-column="16" />
         </state>
       </provider>
     </entry>

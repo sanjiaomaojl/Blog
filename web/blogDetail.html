@@ -35,7 +35,7 @@
                     <a class="nav-link"><!-- 占位 --></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">首页</a>
+                    <a class="nav-link" href="blogList.html">首页</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#"></a>
@@ -132,37 +132,6 @@
     $(document).ready(function () {
         //获取userId
         var bId = getCookie("bId");
-        //判断是否有效
-        $.ajax({
-            url:path+"/blog/isLogin.do",
-            type:"post",
-            data:{"userId":bId},
-            dataType:"json",
-            success:function (result) {
-                if (result.status === 0) {
-                    $('#linkA').text(result.data.b_user_name);
-                    if (result.data.b_user_name === 'demo') {
-                        $('#linkB').text('博客管理').attr('href', 'blogManage.html');
-                    }
-                    $('#linkC').text('退出').attr('href', path+'/blog/loginOut.do');
-                } else {
-                    $('#linkB').text('注册/登录').attr('href', 'log_in.html');
-                }
-            },
-            error:function () {
-                alert("登录失败!");
-            }
-        });
-/*        //文章全部内容
-        $.post('/api/blog/'+getQueryVariable('id'), function (result) {
-            if (result.code===0) {
-                $('#blogTitle').text(result.data.title);
-                $('#blogDate').text(result.data.createTime);
-                $('#blogContent').html(result.data.showContent);
-            }
-        }).fail(function () {
-            alert("网络异常，请重试");
-        });*/
         //文章内容
         var diaryId = getQueryVariable('id');
         $.ajax({
@@ -174,7 +143,7 @@
                 if(result.status == 0){
                     diaryTitle = result.data.b_diary_title;
                     diaryCreate = result.data.b_diary_create_time;
-                    diaryContent = result.data.b_diary_body;
+                    diaryContent = result.data.b_diary_show_body;
                     createDiary(diaryTitle,diaryCreate,diaryContent);
                 }
             },

@@ -11,22 +11,22 @@
     <title>更新博客</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="/static/vendor/admin/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/admin/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- MetisMenu CSS -->
-    <link href="/static/vendor/admin/metisMenu/metisMenu.min.css" rel="stylesheet">
+    <link href="vendor/admin/metisMenu/metisMenu.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="/static/dist/admin/css/sb-admin-2.css" rel="stylesheet">
+    <link href="dist/admin/css/sb-admin-2.css" rel="stylesheet">
 
     <!-- Morris Charts CSS -->
-    <link href="/static/vendor/admin/morrisjs/morris.css" rel="stylesheet">
+    <link href="vendor/admin/morrisjs/morris.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="/static/vendor/admin/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/admin/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- EditorMD -->
-    <link rel="stylesheet" href="/static/vendor/editor/css/editormd.css"/>
+    <link rel="stylesheet" href="vendor/editor/css/editormd.css"/>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,7 +36,7 @@
     <![endif]-->
 
     <!-- 自定义样式 -->
-    <link rel="stylesheet" href="/static/css/public.css">
+    <link rel="stylesheet" href="css/public.css">
 </head>
 
 <body>
@@ -52,6 +52,7 @@
                 <span class="icon-bar"></span>
             </button>
             <label class="navbar-brand">记录你的文字</label>
+            <label class="navbar-brand"><a href="blogList.html">主页</a></label>
         </div>
 
         <ul class="nav navbar-top-links navbar-right">
@@ -71,13 +72,7 @@
             <div class="sidebar-nav navbar-collapse">
                 <ul class="nav" id="side-menu">
                     <li>
-                        <a href="/static/html/blogManage.html"><i class="fa fa-bar-chart-o fa-fw"></i>博客管理</a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-table fa-fw"></i>简历管理</a>
-                    </li>
-                    <li>
-                        <a href="/static/html/userManage.html"><i class="fa fa-edit fa-fw"></i>用户管理</a>
+                        <a href="html/blogManage.html"><i class="fa fa-bar-chart-o fa-fw"></i>博客管理</a>
                     </li>
                 </ul>
             </div>
@@ -112,20 +107,24 @@
 
 </div>
 
+<!--定义path-->
+<script src="scripts/base.js"></script>
+<!--cookie-->
+<script src="scripts/cookie_util.js"></script>
 <!-- jQuery -->
-<script src="/static/vendor/admin/jquery/jquery.min.js"></script>
+<script src="vendor/admin/jquery/jquery.min.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="/static/vendor/admin/bootstrap/js/bootstrap.min.js"></script>
+<script src="vendor/admin/bootstrap/js/bootstrap.min.js"></script>
 
 <!-- Metis Menu Plugin JavaScript -->
-<script src="/static/vendor/admin/metisMenu/metisMenu.min.js"></script>
+<script src="vendor/admin/metisMenu/metisMenu.min.js"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="/static/dist/admin/js/sb-admin-2.js"></script>
-<script src="/static/vendor/editor/editormd.min.js"></script>
+<script src="dist/admin/js/sb-admin-2.js"></script>
+<script src="vendor/editor/editormd.min.js"></script>
 
-<script src="/static/js/public.js"></script>
+<script src="js/public.js"></script>
 <script>
     function getQueryVariable(variable) {
         var query = window.location.search.substring(1);
@@ -140,50 +139,64 @@
     }
 
     $(document).ready(function () {
-        var id = getQueryVariable('id');
-        $.post('/api/isLogin', function (result) {
-            if (result.code !== 2) {
+        //获取文章ID
+        var diaryId = getQueryVariable('id');
+        //获取userId
+        var bId = getCookie("bId");
+        //判断是否有效
+        $.ajax({
+            url:path+"/blog/isLogin.do",
+            type:"post",
+            data:{"bId":bId},
+            dataType:"json",
+            success:function (result) {
+                if (result.status != 0)
                 alert('用户未登录')
             }
-        }).fail(function () {
-            alert("网络异常，请重试")
         });
 
-        $.post('/api/blog/' + id, function (result) {
-            var testEditor;
-            testEditor = editormd("test-editormd", {
-                width: "100%",
-                height: 640,
-                syncScrolling: "single",
-                path: "/static/vendor/editor/lib/",
-                saveHTMLToTextarea: true
-            });
-            if (result.code === 0) {
-                $('#title').attr('value', result.data.title);
-                $('#content').html(result.data.realContent);
-                $('#content2').html(result.data.realContent);
-            }
-            $("#id_btn_blog_submit").bind("click", function () {
-                $.post('/api/modifyBlog',
-                    {
-                        id: id,
-                        title: $('#title').val(),
-                        realContent: testEditor.getMarkdown(),
-                        showContent: $(".markdown-body").prop('outerHTML')
-                    },
-                    function (result) {
-                        if (result.code === 0) {
-                            alert('更新成功');
-                            window.location.reload();
-                        } else {
-                            alert('更新失败');
-                        }
-                    }).fail(function () {
-                    alert('网络异常，请重试');
+        /*$.post('/blog/content.do' + id, function (result) {*/
+        $.ajax({
+            url:path+"/blog/content.do",
+            type:"post",
+            data:{"diaryId":diaryId},
+            dataType:"json",
+            success:function (result) {
+                var testEditor;
+                testEditor = editormd("test-editormd", {
+                    width: "100%",
+                    height: 640,
+                    syncScrolling: "single",
+                    path: "vendor/editor/lib/",
+                    saveHTMLToTextarea: true
                 });
-            });
-        }).fail(function () {
-            alert("网络异常，请重试");
+                if (result.status == 0) {
+                    $('#title').attr('value', result.data.b_diary_title);
+                    $('#content').html(result.data.b_diary_body);
+                    $('#content2').html(result.data.b_diary_show_body);
+                }
+                $("#id_btn_blog_submit").bind("click", function () {
+                    $.ajax({
+                        url:path+"/blog/modifyBlog.do",
+                        type:"post",
+                        data:{"diaryId":diaryId,"title":$('#title').val(),"content":testEditor.getMarkdown(),"showContent":$(".markdown-body").prop('outerHTML')},
+                        dataType:"json",
+                        success:function (result) {
+                            alert(testEditor.getMarkdown());
+                            if(result.status == 0){
+                                alert('更新成功');
+                                window.location.reload();
+                            }
+                        },
+                        error:function () {
+                            alert("更新失败");
+                        }
+                    });
+                });
+            },
+            error:function () {
+                alert("查询失败");
+            }
         });
     });
 </script>

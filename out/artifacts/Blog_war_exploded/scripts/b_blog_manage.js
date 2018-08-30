@@ -134,27 +134,26 @@ var EventInit = function () {
  * 批量删除
  */
 function deleteArticleInBulk() {
-    idsArr = [];
-    dataSel = $('#id_table_blog').bootstrapTable('getSelections');
+    var ids = [];
+    var dataSel = $('#id_table_blog').bootstrapTable('getSelections');
     if(dataSel.length<1){
         msg("至少得选一行吧");
         return;
     }
     for (i = 0; i < dataSel.length; i++) {
         var tmp = dataSel[i];
-        var id = tmp.id;
-        idsArr.push(id);
+        var id = tmp.b_diary_id.toString();
+        ids.push(id);
     }
-
-    // 注意：必须加 contentType: 'application/json'，否则 controller 中无法讲 json 直接转换成对象
     $.ajax({
-        type: "POST",
-        url: "/api/delBlogs",
-        contentType: 'application/json',
-        data: JSON.stringify(idsArr),
+        url: "/blog/delBlogs.do",
+        type: "post",
+        data: "ids="+ids,
         success: function (result) {
-            msg("完成删除，刚才的文章永远的离你而去了");
-            flushTable();
+            if(result.status == 0){
+                msg("完成删除，刚才的文章永远的离你而去了");
+                flushTable();
+            }
         },
         error:function () {
             msg("删除失败");
@@ -166,7 +165,7 @@ function deleteArticleInBulk() {
  * 添加文章
  */
 function addBlog() {
-    c_location("/static/html/blogEdit.html");
+    c_location("blogEdit.html");
 }
 
 /**
@@ -181,7 +180,7 @@ function modifyBlog() {
     if (dataSel.length > 1) {
         msg("一篇还不够你改的吗？选多啦");
     } else {
-        id = dataSel[0].id;
-        c_location("/static/html/blogModify.html?id=" + id);
+        id = dataSel[0].b_diary_id;
+        c_location("blogModify.html?id=" + id);
     }
 }
