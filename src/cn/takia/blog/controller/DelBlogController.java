@@ -13,6 +13,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 import java.util.Map;
 
+/**
+ *批量删除博客的Controller
+ */
 @Controller
 @RequestMapping("/blog")
 public class DelBlogController {

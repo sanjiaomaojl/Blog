@@ -7,6 +7,9 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 
+/**
+ * 判断用户是否登陆的实现
+ */
 @Service("isLoginService")
 public class IsLoginServiceImpl implements IsLoginService{
     @Resource

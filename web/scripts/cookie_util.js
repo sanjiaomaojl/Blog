@@ -1,4 +1,3 @@
-
 //获得coolie 的值
 
 function cookie(name){    

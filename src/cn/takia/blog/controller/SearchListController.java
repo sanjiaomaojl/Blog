@@ -10,6 +10,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.annotation.Resource;
 import java.util.List;
 
+/**
+ * 搜索查询的Controller
+ */
 @Controller
 @RequestMapping("/blog")
 public class SearchListController {

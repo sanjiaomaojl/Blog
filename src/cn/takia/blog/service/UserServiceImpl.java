@@ -8,12 +8,16 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 
+/**
+ * 用户Service层的实现
+ */
 
 @Service("userService")//扫描spring容器
 public class UserServiceImpl implements UserService{
     @Resource
     private UserDao userDao;
     @Override
+    //检查用户名密码
     public NoteResult<User> checkLogin(String name, String password) {
         NoteResult<User> result = new NoteResult<User>();
         User user = userDao.findByName(name);
@@ -35,8 +39,10 @@ public class UserServiceImpl implements UserService{
     }
 
     @Override
+    //用户注册
     public NoteResult<User> addUser(String name, String password) {
         NoteResult<User> result = new NoteResult<User>();
+        //一定要检测，，ID才是主键
         User hasUser = userDao.findByName(name);
         if(hasUser != null){
             result.setStatus(1);

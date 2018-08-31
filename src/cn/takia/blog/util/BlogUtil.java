@@ -8,6 +8,7 @@ public class BlogUtil {
     public static String createId(){
         UUID uuid = UUID.randomUUID();
         String id = uuid.toString();
+        //把生成的-去掉
         return id.replace("-", "");
     }
 }

@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
 
+/**
+ * 通过ID加载详细的博客列表
+ */
 @Controller
 @RequestMapping("/blog")
 public class LoadDiaryController {

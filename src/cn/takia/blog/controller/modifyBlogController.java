@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
 
+/**
+ * 修改博客信息的Controller
+ */
 @Controller
 @RequestMapping("/blog")
 public class modifyBlogController {

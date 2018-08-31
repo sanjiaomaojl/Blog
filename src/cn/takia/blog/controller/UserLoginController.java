@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
 
+/**
+ * 用户登录的Controller
+ */
 @Controller
 @RequestMapping("/blog")  //匹配请求路径
 public class UserLoginController {

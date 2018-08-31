@@ -2,6 +2,9 @@ package cn.takia.blog.entity;
 
 import java.io.Serializable;
 
+/**
+ * 用户类
+ */
 public class User implements Serializable {
     private String b_user_id;
     private String b_user_name;

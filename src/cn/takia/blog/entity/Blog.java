@@ -3,10 +3,15 @@ package cn.takia.blog.entity;
 import java.io.Serializable;
 import java.sql.Timestamp;
 
+/**
+ * 博客相关的属相
+ */
 public class Blog implements Serializable {
     private String b_diary_id;
     private String b_diary_title;
+    //普通的内容
     private String b_diary_body;
+    //MarkDown中的数据
     private String b_diary_show_body;
     private String b_diary_create_time;
     private String b_diary_update_time;

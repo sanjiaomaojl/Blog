@@ -2,6 +2,10 @@ package cn.takia.blog.util;
 
 import java.io.Serializable;
 
+/**
+ * 封装一个储存结果数据的工具类
+ * @param <T>
+ */
 public class NoteResult<T> implements Serializable {
     private int status;
     private String msg;

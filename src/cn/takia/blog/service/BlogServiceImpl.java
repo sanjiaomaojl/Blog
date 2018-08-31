@@ -10,11 +10,15 @@ import javax.annotation.Resource;
 import java.text.SimpleDateFormat;
 import java.util.List;
 
+/**
+ * BlogService层的实现
+ */
 @Service("blogService")
 public class BlogServiceImpl implements BlogService{
     @Resource
     private BlogDao blogDao;
     @Override
+    //加载博客列表
     public NoteResult<List<Blog>> loadBlogDiary() {
         NoteResult<List<Blog>> result = new NoteResult<List<Blog>>();
         List<Blog> list = blogDao.findByDiary();
@@ -25,6 +29,7 @@ public class BlogServiceImpl implements BlogService{
     }
 
     @Override
+    //加载博客列表，效力Controller
     public NoteResult<List<Blog>> queryAllBlogDesc() {
         NoteResult<List<Blog>> result = new NoteResult<List<Blog>>();
         List<Blog> list = blogDao.queryAllBlog();
@@ -35,9 +40,11 @@ public class BlogServiceImpl implements BlogService{
     }
 
     @Override
+    //增加博客
     public NoteResult<Blog> addBlog(String title,String content,String showContent) {
         NoteResult<Blog> result = new NoteResult<Blog>();
         Blog blog = new Blog();
+        //引用UUID创建ID
         String blog_id = BlogUtil.createId();
         blog.setB_diary_id(blog_id);
         blog.setB_diary_title(title);
@@ -56,8 +63,10 @@ public class BlogServiceImpl implements BlogService{
     }
 
     @Override
+    //批量删除
     public NoteResult<Object> delBlogs(List<String> ids) {
         NoteResult<Object> result = new NoteResult<Object>();
+        //n是删除数据的数量
         int n = blogDao.delBlogs(ids);
         if(n>0){
             result.setStatus(0);
@@ -71,6 +80,7 @@ public class BlogServiceImpl implements BlogService{
     }
 
     @Override
+    //修改博客
     public NoteResult<Object> modifyBlog(String diaryId, String title, String content, String showContent) {
         NoteResult<Object> result = new NoteResult<Object>();
         Blog blog = new Blog();
@@ -90,6 +100,7 @@ public class BlogServiceImpl implements BlogService{
     }
 
     @Override
+    //查询博客
     public NoteResult<List<Blog>> searchList(String title) {
         NoteResult<List<Blog>> result = new NoteResult<List<Blog>>();
         List<Blog> list = blogDao.searchList(title);

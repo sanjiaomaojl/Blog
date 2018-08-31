@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
 
+/**
+ * 增加博客的Controller
+ */
 @Controller
 @RequestMapping("/blog")
 public class AddBlogController {

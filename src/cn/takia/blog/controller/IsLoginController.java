@@ -9,6 +9,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
 
+/**
+ *判断用户是否登陆
+ *
+ */
 @Controller
 @RequestMapping("/blog")
 public class IsLoginController {
