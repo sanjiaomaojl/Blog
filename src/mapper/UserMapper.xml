@@ -6,4 +6,14 @@
     <select id="findByName" parameterType="string" resultType="cn.takia.blog.entity.User">
     select * from b_user where b_user_name=#{name}
     </select>
+    <insert id="addUser" parameterType="cn.takia.blog.entity.User">
+        insert into b_user(
+            b_user_id,
+            b_user_name,
+            b_user_password)
+        values (
+            #{b_user_id},
+            #{b_user_name},
+            #{b_user_password})
+    </insert>
 </mapper>    

@@ -2,6 +2,9 @@ function userLogin() {
     //获取参数
     var name = $("#count").val().trim();
     var password = $("#password").val().trim();
+    //清空span的内容
+    $("#name_msg").html("");
+    $("#password_msg").html("");
     //格式检测
     var ok = true;
     if (name == ""){
@@ -11,7 +14,7 @@ function userLogin() {
         $("#password_msg").html("密码不能为空");
         ok = false;
     }
-    //发送请求
+    //登录请求
     if(ok){
         $.ajax({
             url:path+"/blog/login.do",

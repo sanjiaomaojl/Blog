@@ -2,6 +2,7 @@ package cn.takia.blog.service;
 
 import cn.takia.blog.dao.UserDao;
 import cn.takia.blog.entity.User;
+import cn.takia.blog.util.BlogUtil;
 import cn.takia.blog.util.NoteResult;
 import org.springframework.stereotype.Service;
 
@@ -30,6 +31,26 @@ public class UserServiceImpl implements UserService{
         result.setStatus(0);
         result.setMsg("登录成功");
         result.setData(user);
+        return result;
+    }
+
+    @Override
+    public NoteResult<User> addUser(String name, String password) {
+        NoteResult<User> result = new NoteResult<User>();
+        User hasUser = userDao.findByName(name);
+        if(hasUser != null){
+            result.setStatus(1);
+            result.setMsg("该用户已存在");
+            return result;
+        }
+        User user = new User();
+        String id = BlogUtil.createId();
+        user.setB_user_id(id);
+        user.setB_user_name(name);
+        user.setB_user_password(password);
+        userDao.addUser(user);
+        result.setStatus(0);
+        result.setMsg("注册成功");
         return result;
     }
 }

@@ -72,7 +72,7 @@
             <div class="sidebar-nav navbar-collapse">
                 <ul class="nav" id="side-menu">
                     <li>
-                        <a href="html/blogManage.html"><i class="fa fa-bar-chart-o fa-fw"></i>博客管理</a>
+                        <a href="blogManage.html"><i class="fa fa-bar-chart-o fa-fw"></i>博客管理</a>
                     </li>
                 </ul>
             </div>
@@ -182,7 +182,6 @@
                         data:{"diaryId":diaryId,"title":$('#title').val(),"content":testEditor.getMarkdown(),"showContent":$(".markdown-body").prop('outerHTML')},
                         dataType:"json",
                         success:function (result) {
-                            alert(testEditor.getMarkdown());
                             if(result.status == 0){
                                 alert('更新成功');
                                 window.location.reload();
