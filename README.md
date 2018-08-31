@@ -1,0 +1,55 @@
+# 博客
+博客小项目
+## 概述
+博客。完成了用户的登录注册。博客文章的展示和搜索。对博客后台的管理，实现增加、删除、修改功能。<br>
+## 模块划分
+- 用户模块
+- 博客展示、搜索模块
+- 博客后台的增加、修改、批量删除模块
+## 设计思想
+MVC设计思想
+表现层：html + css + jQuery + ajax <br>
+控制层：sprigmvc <br>
+业务层：service组件 <br>
+持久层：Dao组件 <br>
+## 规范
+- 所有请求AJAX方式访问 
+- 前端采用HTML 
+- 请求结果进行JSON相应
+## 开发工具
+IntelliJ IDEA<br>
+## 数据库
+mysql数据库<br>
+设计为:https：//github.com/sanjiaomaojl/Blog/Sql/blog.sql
+## 运行
+可部署在Tomcat的上运行该项目。<br>
+打开博客列表界面:https://github.com/sanjiaomaojl/Blog/blob/master/web/blogList.html <br>
+所有操作简单便捷
+- 博客列表
+![avatar](/images/博客列表.png)
+- 搜索博客
+![avatar](/images/搜索博客.png)
+- 登录
+![avatar](/images/登录.png)
+- 注册
+![avatar](/images/注册.png)
+- 博客管理
+![avatar](/images/博客管理.png)
+- 新增博客页面
+![avatar](/images/新增博客页面.png)
+- 修改博客
+![avatar](/images/修改博客.png)
+- 删除博客(支持批量删除)
+![avatar](/images/删除博客.png)
+## 测试
+- 用户名:demo
+- 密码:123456
+也可以自行注册测试项目。但demo可用于操作博客后台数据。
+
+前端页面用的别人的工程:https://github.com/jameszbl/fs-blog <br>
+感谢:https://github.com/lfz757077613/MyBlog
+
+
+
+
+
