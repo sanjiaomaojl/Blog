@@ -20,7 +20,7 @@ MVC设计思想
 IntelliJ IDEA<br>
 ## 数据库
 mysql数据库<br>
-设计为:https：//github.com/sanjiaomaojl/Blog/Sql/blog.sql
+设计为:https://github.com/sanjiaomaojl/Blog/blob/master/Sql/blog.sql
 ## 运行
 可部署在Tomcat的上运行该项目。<br>
 打开博客列表界面:https://github.com/sanjiaomaojl/Blog/blob/master/web/blogList.html <br>
